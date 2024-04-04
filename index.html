@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Corporation</title>
+
+    <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+    <!-- <link rel="icon" href="favicon/favicon.ico" type="image/x-icon"> -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script defer src="js/jquery-3.6.3.min.js"></script>
+    <script defer src="js/imask.js"></script>
+    <script defer src="js/slick.min.js"></script>
+    <script defer src="js/jquery.magnific-popup.min.js"></script>
+    <script defer src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=43b8d178-fed3-4735-9952-ba8f45bc2e53" type="text/javascript"></script>
+    <!-- <script defer src="https://api-maps.yandex.ru/v3/?apikey=c1fabd6b-bf76-4f66-b9d8-196bd7717925&lang=ru_RU"></script> -->
+    <script defer src="js/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="Логотип">
+            </a>
+           <div class="top_menu">
+                <ul class="menu">
+                   
+                    <li class="item">
+                        <a href="#" class="menu__link">Главная</a>
+                    </li>
+                    <li class="item">
+                        <a href="#serv" class="menu__link">Услуги</a>
+                    </li>
+                    <li class="item">
+                        <a href="#wins" class="menu__link">Сильные стороны</a>
+                    </li>
+                    <li class="item">
+                        <a href="#cases" class="menu__link">Кейсы</a>
+                    </li>
+                    <li class="item">
+                        <a href="#quest" class="menu__link">Частые вопросы</a>
+                    </li>
+                    <li class="item">
+                        <a href="#cont" class="menu__link">Контакты</a>
+                    </li>
+                    <li class="dd_menu">
+                        <button class="dropdown-toggle" type="button"></button>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                   <li class="mobile">
+                    <div class="header__contacts header__contacts_mob">
+                        <div class="header__phone__wrap">
+                            <a class="header__phone">+7 (999) 587-57-77</a>
+                            <div class="header__contacts__wrap_hide">
+                               
+                                <a href="tel:+79995875777" class="header__phone">+7 (999) 587-57-77</a>
+                                <a href="tel:+79890910333" class="header__phone">+7 (989) 091-03-33</a>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn_41 btn_yellow consult">Написать нам</button>
+                   </div>
+                   </li>
+                   <li class="mobile">
+                    <div class="contacts__soc">
+                        <a href="https://t.me/technocorporation" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorporation</a>
+                        <a href="https://t.me/technocorp" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp</a>
+                        <a href="https://t.me/technocorp" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp</a>
+                        <a href="https://t.me/technocorp74" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp74</a>
+                    </div>
+                   </li>
+                </ul>
+                
+           </div>
+           <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+           <div class="header__contacts">
+                <div class="header__phone__wrap">
+                    <a class="header__phone">+7 (999) 587-57-77</a>
+                    <div class="header__contacts__wrap_hide">
+                       
+                        <a href="tel:+79995875777" class="header__phone">+7 (999) 587-57-77</a>
+                        <a href="tel:+79890910333" class="header__phone">+7 (989) 091-03-33</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn_41 btn_yellow consult">Написать нам</button>
+           </div>
+           <div class="mobile">
+            <div class="header__contacts__icon"></div>
+                
+           </div>
+           
+        </div>
+        
+    </header>
+    <div class="header__contacts_mobile">
+        <a href="tel:+79995875777" class="header__phone">+7 (999) 587-57-77</a>
+        <a href="tel:+79890910333" class="header__phone">+7 (989) 091-03-33</a>
+    </div>
+    <main>
+        <section class="promo">
+            <div class="tabs">
+  
+                <div class="container">
+                    <ul class="tabs__caption">
+                        <li class="active">Поставки товаров <br> из Китая</li>
+                        <li>Майнинг- <br> оборудование</li>
+                        <li>Металлопрокат <br> из Китая</li>
+                      </ul>
+                </div>
+                
+                <div class="tabs__content active">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <img src="img/promo-bg-mob.png" alt="">
+                        <video autoplay muted loop playsinline>
+                            <source src="img/promo_video.webm" type="video/webm">
+                            <source src="img/promo_video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Комплексные поставки товаров из Китая с <span class="yellow">фиксированной наценкой 5%</span>
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. Найдем, выкупим и доставим любой товар из Китая.
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="product.html" class="btn btn_white btn_60 fs_18 fw_500 desktop" rel="noopener noreferrer" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tabs__content">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <video autoplay muted loop playsinline>
+                            <source src="img/slide2.webm" type="video/webm">
+                            <source src="img/promo_video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Майнинг-оборудование из Китая с <span class="yellow">фиксированной наценкой 5%</span>
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. 
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="#" class="btn btn_white btn_60 fs_18 fw_500 desktop">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <video src="img/slide3.mp4" autoplay muted loop playsinline></video>
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Комплексные поставки металлопроката из Китая
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. Найдем, выкупим и доставим любой металлопрокат из Китая.
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="#" class="btn btn_white btn_60 fs_18 fw_500 desktop">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="promo__slider">
+                <div class="promo__slide">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <img src="img/promo-bg-mob.png" alt="">
+                        
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Комплексные поставки товаров из Китая с <span class="yellow">фиксированной наценкой 5%</span>
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. Найдем, выкупим и доставим любой товар из Китая.
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="product.html" class="btn btn_white btn_60 fs_18 fw_500 desktop" rel="noopener noreferrer" target="_blank">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo__slide">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <img src="img/promo-bg-mob2.png" alt="">
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Майнинг-оборудование из Китая с <span class="yellow">фиксированной наценкой 5%</span>
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. 
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="#" class="btn btn_white btn_60 fs_18 fw_500 desktop">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo__slide">
+                    <div class="promo__video">
+                        <div class="promo__video__overlay"></div>
+                        <img src="img/promo-bg-mob3.png" alt="">
+                    </div>
+                    <div class="container">
+                        <h1 class="promo__title">
+                            Комплексные поставки металлопроката из Китая
+                        </h1>
+                        <p class="promo__subtitle">
+                            Надежный помощник для вашего бизнеса. Найдем, выкупим и доставим любой металлопрокат из Китая.
+                        </p>
+                        <div class="promo__btns">
+                            <button type="button" class="btn btn_60 btn_yellow fs_18 fw_500 consult">Связаться с нами</button>
+                            <a href="#" class="btn btn_white btn_60 fs_18 fw_500 desktop">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#serv" class="promo__arrow"></a>
+            <img src="img/promo_cubs.svg" alt="" class="promo__cubs">
+        </section>
+        <section class="serv" id="serv">
+            <div class="container">
+                <h2 class="title">
+                    Услуги
+                </h2>
+                <div class="serv__wrapper">
+                    <a href="product.html" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img1"></div>
+                        <p class="serv__item__text">
+                            Поставка товаров <br>
+                            из Китая
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img2"></div>
+                        <p class="serv__item__text">
+                            Поиск поставщиков
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img3"></div>
+                        <p class="serv__item__text">
+                            Проверка контрагента для бизнеса с Китаем
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img4"></div>
+                        <p class="serv__item__text">
+                            Заказ изделия под производство
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img5"></div>
+                        <p class="serv__item__text">
+                            Брендирование
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img6"></div>
+                        <p class="serv__item__text">
+                            Инспекция товаров
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img7"></div>
+                        <p class="serv__item__text">
+                            Выкуп с китайских маркетплейсов
+                        </p>
+                    </a>
+                    <a href="#" class="serv__item" rel="noopener noreferrer" target="_blank">
+                        <div class="serv__item__img serv__item__img8"></div>
+                        <p class="serv__item__text">
+                            Доставка товаров в Россию
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="wins" id="wins">
+           <div class="container">
+            <h2 class="title mb_48">
+                Сильные стороны
+            </h2>
+            <div class="wrapper">
+               <div class="wins__slider__wrap">
+                <div class="wins__slider">
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-1-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Мы публичны и открыты
+                            </p>
+                            <p class="fs_16 lh_150">
+                                Обо всей деятельности рассказываем в телеграм-каналах. Следим за репутацией. На связи 24/7.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-2-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Надежные <br> партнеры в Китае
+                            </p>
+                            <p class="fs_16 lh_150">
+                                За годы работы с нашими партнерами мы стали настоящими друзьями с регулярными встречами в Москве и Китае.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-3-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Опыт крупных <br> сделок
+                            </p>
+                            <p class="fs_16 lh_150">
+                                Уверенно беремся за крупные поставки более 20 000 000 рублей.
+                                <br> <br>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="wins__slider__before"> <img src="img/wins/wins-cubs1.svg" alt=""> </div>
+                <div class="wins__slider__after"></div>
+               </div>
+                <div class="wins__slider__wrap">
+                    <div class="wins__slider">
+                        
+                        <div class="wins__slide">
+                            <div class="wins__slider__video">
+                               <button type="button" class="play-video"></button>
+                                <video playsinline>
+                                    <source src="img/wins/video-techno-corp.mp4" type="video/mp4">
+                                    Ваш браузер не поддерживает воспроизведение данного видео
+                                </video>
+                            </div>
+                            <div class="wins__text">
+                                <p class="fs_32 fw_600 lh_norm mb_16">
+                                    Надежные <br> партнеры в Китае
+                                </p>
+                                <p class="fs_16 lh_150">
+                                    За годы работы с нашими партнерами мы стали настоящими друзьями с регулярными встречами в Москве и Китае.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wins__slide">
+                            <div class="wins__slider__img">
+                                <img src="img/wins/wins-slider-3-1.png" alt="">
+                            </div>
+                            <div class="wins__text">
+                                <p class="fs_32 fw_600 lh_norm mb_16">
+                                    Опыт крупных <br> сделок
+                                </p>
+                                <p class="fs_16 lh_150">
+                                    Уверенно беремся за крупные поставки более 20 000 000 рублей.
+                                    <br> <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wins__slide">
+                            <div class="wins__slider__img">
+                                <img src="img/wins/wins-slider-1-1.png" alt="">
+                            </div>
+                            <div class="wins__text">
+                                <p class="fs_32 fw_600 lh_norm mb_16">
+                                    Мы публичны и открыты
+                                </p>
+                                <p class="fs_16 lh_150">
+                                    Обо всей деятельности рассказываем в телеграм-каналах. Следим за репутацией. На связи 24/7.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wins__slider__after"></div>
+                </div>
+               <div class="wins__slider__wrap">
+                <div class="wins__slider">
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-3-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Опыт крупных <br> сделок
+                            </p>
+                            <p class="fs_16 lh_150">
+                                Уверенно беремся за крупные поставки более 20 000 000 рублей.
+                                <br> <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-1-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Мы публичны и открыты
+                            </p>
+                            <p class="fs_16 lh_150">
+                                Обо всей деятельности рассказываем в телеграм-каналах. Следим за репутацией. На связи 24/7.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wins__slide">
+                        <div class="wins__slider__img">
+                            <img src="img/wins/wins-slider-2-1.png" alt="">
+                        </div>
+                        <div class="wins__text">
+                            <p class="fs_32 fw_600 lh_norm mb_16">
+                                Надежные <br> партнеры в Китае
+                            </p>
+                            <p class="fs_16 lh_150">
+                                За годы работы с нашими партнерами мы стали настоящими друзьями с регулярными встречами в Москве и Китае.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wins__slider__before"></div>
+                <div class="wins__slider__after"></div>
+               </div>
+            </div>
+           </div>
+        </section>
+        <section class="exp">
+            <div class="container">
+                <div class="exp__wrapper">
+                    <div class="exp__content">
+                        <h2 class="title">
+                            <span>Уникальный опыт</span> работы с нами
+                        </h2>
+                        <p class="fs_24 exp__text">
+                            С 2020 года работы <span>расширили ассортимент</span> товаров с видеокарт до майнинг оборудования, металла и автомобилей
+                        </p>
+                    </div>
+                    <div class="exp__content2">
+                        <div class="exp__item">
+                            <p class="fs_32 lh_norm mb_16 fw_600">Фиксированная наценка 5%</p>
+                            <p class="fs_16 lh_150">Независимо от стоимости или количества товаров наша комиссия за услугу не меняется</p>
+                        </div>
+                        <div class="exp__item">
+                            <p class="fs_32 lh_norm mb_16 fw_600">Высокая скорость поставок</p>
+                            <p class="fs_16 lh_150">Не экономим на доставке в угоду своей прибыли. Выбираем лучшие авиа/карго-компании</p>
+                        </div>
+                        <div class="exp__item">
+                            <p class="fs_32 lh_norm mb_16 fw_600">Гарантия поставки</p>
+                            <p class="fs_16 lh_150">Любой товар, поставляемый из Китая застрахован на всю сумму заказа</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="form">
+            <div class="container">
+                <div class="form__wrapper">
+                    <div class="form__content">
+                        <p class="title mb_50">
+                            Хотите работать с нами?
+                        </p>
+                        <p class="fs_16 lh_150">
+                            Наш специалист свяжется с вами через 30 минут и ответит на все вопросы
+                        </p>
+                    </div>
+                    <form action="#" class="form__form">
+                        <label>
+                            <p class="fs_13 lh_norm mb_16">Введите номер телефона</p>
+                            <input type="text" class="form__input phone" placeholder="+7" value="+7">
+                        </label>
+                        <button type="submit" class="btn btn_yellow btn_60 fs_18 fw_500">Связаться с нами</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="provid">
+            <div class="container">
+                <div class="provid__wrapper">
+                    <div class="provid__content">
+                        <h2 class="title">
+                            Поставим <span>любую продукцию</span> из Китая
+                        </h2>
+                      <div>
+                        <p class="provid__text">
+                            Мы можем найти любой <span>товар по запросу</span>.  
+                            Для этого от вас достаточно наименования, фотографии и описания. <br class="mobile"> <br class="mobile"> <span>Подберем лучшее</span> соотношение цены и качества под ваши потребности. 
+                        </p>
+                        <button type="button" class="btn btn_yellow btn_60 fs_18 fw_500 consult desktop">Связаться с нами</button>
+                      </div>
+                    </div>
+                    <div class="provid__popular">
+                        <div class="provid__popular__item">
+                            <div class="provid__label">Популярное</div>
+                            <p class="fs_24 mb_16 lh_norm">Майнинг оборудование</p>
+                            <p class="fs_16 mb_24 lh_150">
+                                Многолетний опыт подбора индивидуального оборудования под любой бюджет
+                            </p>
+                            <a href="#" class="btn btn_44 lh_norm btn_transparent">Подробнее</a>
+                        </div>
+                        <div class="provid__popular__item">
+                            <div class="provid__label">Популярное</div>
+                            <p class="fs_24 mb_16 lh_norm">Металлопрокат и ферросплавы</p>
+                            <!-- замена текста -->
+                            <p class="fs_16 mb_24 lh_150">
+                                Многолетний опыт подбора индивидуального оборудования под любой бюджет 
+                            </p>
+                            <a href="#" class="btn btn_44 lh_norm btn_transparent">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="questions" id="quest">
+            <div class="container">
+                <div class="questions__img desktop">
+                    <img src="img/question.svg" alt="Частые вопросы">
+                </div>
+                <h2 class="title">Частые вопросы</h2>
+               <div class="questions__quest">
+                <details>
+                    <summary>Как долго существляется доставка?</summary>
+                    <p class="fs_16 lh_150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est veniam velit voluptatibus quae impedit distinctio natus, dolor commodi. Alias porro totam consectetur ratione, soluta labore? Obcaecati deserunt architecto mollitia placeat pariatur!</p>
+                </details>
+                <details>
+                    <summary>Как происходит сделка?</summary>
+                    <p class="fs_16 lh_150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est veniam velit voluptatibus quae impedit distinctio natus, dolor commodi. Alias porro totam consectetur ratione, soluta labore? Obcaecati deserunt architecto mollitia placeat pariatur!</p>
+                </details>
+                <details>
+                    <summary>Какие нужны документы? </summary>
+                    <p class="fs_16 lh_150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est veniam velit voluptatibus quae impedit distinctio natus, dolor commodi. Alias porro totam consectetur ratione, soluta labore? Obcaecati deserunt architecto mollitia placeat pariatur!</p>
+                </details>
+                <details>
+                    <summary>Есть ли гарантия?</summary>
+                    <p class="fs_16 lh_150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est veniam velit voluptatibus quae impedit distinctio natus, dolor commodi. Alias porro totam consectetur ratione, soluta labore? Obcaecati deserunt architecto mollitia placeat pariatur!</p>
+                </details>
+                <details>
+                    <summary>Сборные заказы</summary>
+                    <p class="fs_16 lh_150">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est veniam velit voluptatibus quae impedit distinctio natus, dolor commodi. Alias porro totam consectetur ratione, soluta labore? Obcaecati deserunt architecto mollitia placeat pariatur!</p>
+                </details>
+               </div>
+               <div class="wrapper">
+                <p class="fs_24 lh_norm">Не нашли, что искали? <span>Задайте вопрос лично...</span></p>
+                <button type="button" class="btn btn_60 btn_yellow fs_18 lh_norm fw_500 consult">Связаться с нами</button>
+               </div>               
+            </div>
+        </section>
+        <section class="cases" id="cases">
+            <div class="container">
+               
+                <div class="tabs">
+                    <div class="wrapper">
+                        <h2 class="title">Кейсы</h2>
+                        <ul class="tabs__caption">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                          </ul>
+                    </div>
+                    
+                    
+                    <div class="tabs__content active">
+                      <div class="cases__slider__wrap">
+                        
+                        <button type="button" class="open-gallery">+5 фото</button>
+                        <div class="cases__slider-for">
+                            <div class="cases__slide">
+                                <div class="cases__slide__img">
+                                    <a href="img/cases/case1.png" class="cases__img__link">
+                                        <img src="img/cases/case1.png" alt="Кейс фото">
+                                    </a>
+                                </div>
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="cases__slider-nav">
+                            <div class="cases__slide">
+                                <div class="cases__slide__img">
+                                    <img src="img/cases/case1.png" alt="Кейс фото">
+                                </div>
+                            </div>
+                            
+                                                   
+                        </div>
+                        <div class="cases__slider__text">
+                            <p class="fs_32 fw_600 lh_norm mb_24">Поставка майнинг-оборудования в Краснодар</p>
+                            <p class="fs_16 lh_norm">Гуанчжоу – Краснодар, 8 дней</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="tabs__content">
+                        <div class="cases__slider__wrap">
+                           
+                            <button type="button" class="open-gallery">+5 фото</button>
+                            <div class="cases__slider-for">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case1.png" class="cases__img__link">
+                                            <img src="img/cases/case1.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                            <div class="cases__slider-nav">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case1.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                
+                                                           
+                            </div>
+                            <div class="cases__slider__text">
+                                <p class="fs_32 fw_600 lh_norm mb_24">Поставка майнинг-оборудования в Москву</p>
+                                <p class="fs_16 lh_norm">Гуанчжоу – Москва, 8 дней</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="cases__slider__wrap">
+                           
+                            <button type="button" class="open-gallery">+5 фото</button>
+                            <div class="cases__slider-for">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case1.png" class="cases__img__link">
+                                            <img src="img/cases/case1.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case2.jpeg" class="cases__img__link">
+                                            <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="cases__slider-nav">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case1.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                    </div>
+                                </div>
+                               
+                                                           
+                            </div>
+                            <div class="cases__slider__text">
+                                <p class="fs_32 fw_600 lh_norm mb_24">Поставка майнинг-оборудования в Санкт-Петербург</p>
+                                <p class="fs_16 lh_norm">Гуанчжоу – Санкт-Петербург, 8 дней</p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="tabs__content">
+                        <div class="cases__slider__wrap">
+                         
+                            <button type="button" class="open-gallery">+5 фото</button>
+                            <div class="cases__slider-for">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case1.png" class="cases__img__link">
+                                            <img src="img/cases/case1.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case2.jpeg" class="cases__img__link">
+                                            <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case3.jpeg" class="cases__img__link">
+                                            <img src="img/cases/case3.jpeg" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case4.png" class="cases__img__link">
+                                            <img src="img/cases/case4.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="cases__slider-nav">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case1.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case3.jpeg" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case4.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                                           
+                            </div>
+                            <div class="cases__slider__text">
+                                <p class="fs_32 fw_600 lh_norm mb_24">Поставка майнинг-оборудования в Челябинск</p>
+                                <p class="fs_16 lh_norm">Гуанчжоу – Челябинск, 8 дней</p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="tabs__content">
+                        <div class="cases__slider__wrap">
+                            
+                            <button type="button" class="open-gallery">+5 фото</button>
+                            <div class="cases__slider-for">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case1.png" class="cases__img__link">
+                                            <img src="img/cases/case1.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case2.jpeg" class="cases__img__link">
+                                            <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case3.jpeg" class="cases__img__link">
+                                            <img src="img/cases/case3.jpeg" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <a href="img/cases/case4.png" class="cases__img__link">
+                                            <img src="img/cases/case4.png" alt="Кейс фото">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="cases__slider-nav">
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case1.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case2.jpeg" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case3.jpeg" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                <div class="cases__slide">
+                                    <div class="cases__slide__img">
+                                        <img src="img/cases/case4.png" alt="Кейс фото">
+                                    </div>
+                                </div>
+                                                           
+                            </div>
+                            <div class="cases__slider__text">
+                                <p class="fs_32 fw_600 lh_norm mb_24">Поставка майнинг-оборудования в Сочи</p>
+                                <p class="fs_16 lh_norm">Гуанчжоу – Сочи, 8 дней</p>
+                            </div>
+                        </div>
+                      </div>
+                    
+                  </div>
+            </div>
+        </section>
+        <section class="contacts" id="cont">
+            <div class="container">
+                <h2 class="title mb_60">Контакты</h2>
+                <div class="contacts__wrapper">
+                    <div class="contacts__item">
+                        <p class="fs_16 fw_600 lh_norm mb_24">Телефоны для связи</p>
+                        <div class="wrapper_start">
+                            <a href="tel:+79995875777" class="fs_32 contacts__link">+7 (999) 587-57-77</a><span class="fs_32">,</span>
+                            <a href="tel:+79890910333" class="fs_32 contacts__link">+7 (989) 091-03-33</a>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <p class="fs_16 fw_600 lh_norm mb_24">Telegram</p>
+                        <div class="contacts__soc">
+                            <a href="https://t.me/technocorporation" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorporation</a>
+                            <a href="https://t.me/technocorp" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp</a>
+                            <a href="https://t.me/technocorp" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp</a>
+                            <a href="https://t.me/technocorp74" class="contacts__soc__link" target="_blank" rel="noopener noreferrer">@technocorp74</a>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <p class="fs_16 fw_600 lh_norm mb_24">Электронная почта</p>
+                        <a href="mailto:info@technocorporation.ru" class="contacts__item__mail">info@technocorporation.ru</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div class="tabs">
+  
+                <ul class="tabs__caption">
+                  <li class="active">Гуанчжоу</li>
+                  <li>Челябинск</li>
+                </ul>
+                
+                <div class="tabs__content active">
+                  <div id="map">
+
+                  </div>
+                  <div class="map__adress">
+                    <div class="wrapper">
+                        <div class="map__adress__img">
+                            <img src="img/map-adress1.png" alt="">
+                        </div>
+                        <div class="map__adress__content">
+                            <div class="map__label">Офис в Китае</div>
+                            <p class="fs_24 lh_norm">Haizhu District, Гуанчжоу, Гуандун Китай, 510399</p>
+                        </div>
+                    </div>
+                    <img src="img/cases/marker.png" alt="" class="map__adress__mark">
+                  </div>
+                </div>
+                
+                <div class="tabs__content">
+                    <div id="map2">
+
+                    </div>
+                    <div class="map__adress">
+                        <div class="wrapper">
+                            <div class="map__adress__img">
+                                <img src="img/map-img2.jpg" alt="">
+                            </div>
+                            <div class="map__adress__content">
+                                <div class="map__label">Офис в Челябинске</div>
+                                <p class="fs_24 lh_norm">Челябинск</p>
+                            </div>
+                        </div>
+                        <img src="img/cases/marker.png" alt="" class="map__adress__mark">
+                      </div>
+                </div>
+                
+              </div>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="form__wrapper">
+                    <div class="form__content">
+                        <p class="title mb_50">
+                            Хотите работать с нами?
+                        </p>
+                        <p class="fs_16 lh_150">
+                            Наш специалист свяжется с вами через 30 минут и ответит на все вопросы
+                        </p>
+                    </div>
+                    <form action="#" class="form__form">
+                        <label>
+                            <p class="fs_13 lh_norm mb_16">Введите номер телефона</p>
+                            <input type="text" class="form__input phone" placeholder="+7" value="+7">
+                        </label>
+                        <button type="submit" class="btn btn_yellow btn_60 fs_18 fw_500">Связаться с нами</button>
+                    </form>
+                    <div class="footer__divider">
+                        
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <p class="footer__text">
+                        © ООО «Техно-корпорация», 2023 <br>
+                        Комплексные поставки товаров из Китая
+                    </p>
+                    <p class="footer__text">
+                        ИНН 10140041040100101 <br>
+                        ОГРН 140104104010410
+                    </p>
+                    <p class="footer__text">
+                        <a href="#">Политика конфиденциальности</a> <br>
+                        <a href="#">Карта сайта</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal">
+        <div class="modal__header">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Логотип">
+            </div>
+            <div class="modal__close"></div>
+        </div>
+        <div class="modal__container">
+            <div class="wrapper">
+                <div class="modal__content">
+                    <p class="title">Написать нам</p>
+                    <p class="fs_24">
+                        Наш специалист свяжется с вами <span>через 30 минут</span> и ответит на все вопросы
+                    </p>
+                </div>
+                <form action="#" class="modal__form">
+                    <input type="text" class="form__input phone" value="+7" placeholder="+7">
+                    <input type="text" class="form__input" placeholder="Имя">
+                    <textarea class="form__textarea" placeholder="Текст сообщения"></textarea>
+                    <p class="policy">Отправляя форму, вы соглашаетесь с политикой обработки данных</p>
+                    <button type="submit" class="btn btn_yellow btn_60 fs_18 fw_500">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+        <div class="modal__back"></div>
+    </div>
+    <!-- thanks -->
+    <div class="thanks">
+        <div class="modal__close"></div>
+        
+        <p class="fs_16">Спасибо за заявку!</p>
+        
+    </div>
+    <div class="overlay"></div>
+</body>
+</html>
